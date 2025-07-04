@@ -1,4 +1,4 @@
-# Designing-nanoparticle-surfaces-with-DNA-barcodes-for-accurate-in-vivo-quantification-
+# Designing-nanoparticle-surfaces-with-DNA-barcodes-for-accurate-in-vivo-quantification
 
 Repository for all code regarding the paper "Designing nanoparticle surfaces with DNA barcodes for accurate in vivo quantification".
 
