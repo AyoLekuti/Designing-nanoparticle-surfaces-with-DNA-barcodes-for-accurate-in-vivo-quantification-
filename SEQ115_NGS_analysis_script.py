@@ -48,9 +48,6 @@ def run_comparison(file_path):
     comparison_results = compare_sequences(df, sequence_dict)
     print(f"This is the result of '{file_path}':\n {comparison_results}")
 
-# Usage Example
-#file_path = '/Users/ayokunlelekuti/Library/CloudStorage/OneDrive-SharedLibraries-UniversityofToronto/Vanessa Yen Cheng Li - Project Barcoding and Sequencing/Experiments/SEQ106/Results_azenta/30-1079885327-no_partial_adapters/UniqueSeq/Crackle-1_Unique_Seq.csv'  # Update with the actual file path
-
 
 def read_csv_from_user_input(filename):
 
@@ -65,8 +62,6 @@ def read_csv_from_user_input(filename):
         print(f"Error: The file at '{filename}' was not found. Please try again.")
         return None
 
-#def printFileName(filename):
-#    print(f"This is the result at '{filename}':\n '{sequence_dict}'")
 
 def main(): 
     args = sys.argv[1:]
@@ -78,4 +73,4 @@ if __name__ == '__main__':
     main()
 
 
-### Example of code: "python3 SEQ115_NGS_analysis_script.py ./UniqueSeq/*_Seq.csv > results.txt"
+### Example of terminal prompt: "python3 SEQ115_NGS_analysis_script.py ./UniqueSeq/*_Seq.csv > results.txt"
