@@ -46,7 +46,7 @@ def run_comparison(file_path):
 
     # Compare the sequences
     comparison_results = compare_sequences(df, sequence_dict)
-    print(f"This is the result of '{file_path}':\n {comparison_results}")
+    print(f"This is the result of '{file_path}':\n {comparison_results}\n")
 
 
 def read_csv_from_user_input(filename):
